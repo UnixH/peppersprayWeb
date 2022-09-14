@@ -1,0 +1,53 @@
+{
+  "name": "pepperspray-website",
+  "version": "0.1.0",
+  "private": true,
+  "description": "peppersprayWebsite",
+  "author": {
+    "name": ""
+  },
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@vue/cli": "^5.0.8",
+    "axios": "^0.27.2",
+    "md5": "^2.2.1",
+    "qs": "^6.7.0",
+    "vue": "^2.6.10",
+    "vue-recaptcha": "^1.2.0",
+    "vuetify": "^2.0.0"
+  },
+  "devDependencies": {
+    "@mdi/font": "^3.9.97",
+    "@vue/cli-plugin-babel": "^3.12.1",
+    "@vue/cli-plugin-eslint": "^5.0.8",
+    "@vue/cli-service": "^5.0.8",
+    "eslint": "5.6.0",
+    "eslint-plugin-vue": "4.7.1",
+    "sass": "^1.17.4",
+    "sass-loader": "^7.1.0",
+    "vue-cli-plugin-vuetify": "^0.6.3",
+    "vue-template-compiler": "^2.6.10",
+    "vuetify-loader": "^1.2.2"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": ["plugin:vue/essential", "eslint:recommended"],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": ["> 1%", "last 2 versions", "not ie <= 8"]
+}
